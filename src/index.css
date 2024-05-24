@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerComponent {
+    @apply bg-dark text-secondary p-3 lg:p-5 flex flex-wrap justify-between items-center;
+  }
+
+  .coverImage {
+    @apply w-full h-28 lg:h-44 object-cover border-b-[3px] border-dark bg-secondary;
+  }
+}
+
+* {
+  @apply font-spaceGrotesk;
+}
+
+section {
+  @apply px-5 lg:px-14;
+}
+
+body {
+  @apply lg:py-10;
+}
+
+.buttonInfo {
+  @apply p-4 flex flex-wrap bg-secondary justify-between items-center text-[11px];
+}
+
+.buttonInfo:hover {
+  box-shadow: 0 0 #1b1c1f;
+  @apply translate-x-1 translate-y-1;
+}
+
+.shadowHard {
+  box-shadow: 5px 5px #1b1c1f;
+}
+
+.shadowSpotify {
+  box-shadow: 1px 6px #1b1c1f;
+}
+.shadowSpotify:hover {
+  box-shadow: 0px 0px #1b1c1f;
+  @apply translate-x-2 translate-y-2;
+}
+
+.shadowContainer {
+  box-shadow: 13px 15px #1b1c1f;
+}
+
+.animasiProfile {
+  @apply translate-x-2 translate-y-2;
+}
+
+.animasiText {
+  @apply scale-100;
+}
