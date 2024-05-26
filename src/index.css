@@ -20,6 +20,9 @@ section {
   @apply px-5 lg:px-14;
 }
 
+.paper {
+  @apply lg:my-12 relative w-full md:w-[70em] mx-auto border-x-[3px] border-dark bg-primary shadowContainer;
+}
 
 .buttonInfo {
   @apply p-4 flex flex-wrap bg-secondary justify-between items-center text-[11px];

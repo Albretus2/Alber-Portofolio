@@ -1,8 +1,9 @@
-export default function Footer() {
+export default function Footer({ children }) {
   return (
-    <footer className="footer py-16 px-10 bg-primary text-dark border-y-[3px] border-dark font-semibold">
+    <footer className="footer relative overflow-hidden py-16 px-10 bg-primary text-dark border-y-[3px] border-dark font-semibold">
+      {children}
       <aside>
-        <div className="playlist w-full mb-8 py-2 px-2 bg-secondary rounded-full flex flex-wrap items-center gap-3 shadowSpotify transition-all">
+        <div className="playlist w-full mb-8 py-2 px-2 bg-secondary border-[3px] border-dark rounded-full flex flex-wrap items-center gap-3 shadowSpotify transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
