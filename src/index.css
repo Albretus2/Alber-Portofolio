@@ -20,9 +20,6 @@ section {
   @apply px-5 lg:px-14;
 }
 
-body {
-  @apply lg:py-10;
-}
 
 .buttonInfo {
   @apply p-4 flex flex-wrap bg-secondary justify-between items-center text-[11px];
